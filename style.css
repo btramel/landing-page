@@ -2,9 +2,9 @@
 
 body, html {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 100vw;
+    max-width: 100vw;
     height: 100vh;
-    background-color: #1F2937;
+    background-color: white;
     box-sizing: border-box;
     color: white;
 }
@@ -15,10 +15,20 @@ body, html {
     box-sizing: inherit;
 }
 
-.container {
-    /* margin-left: 100px;
-    margin-right: 150px; */
+.content {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
 }
+
+.card {
+    padding: 100px 250px 75px 200px;
+}
+
+
+
+
 
 
 
@@ -32,7 +42,8 @@ body, html {
 header {
     font-size: 24px;
     color: white;
-    padding: 15px;
+    background-color: #1F2937;
+    padding: 20px 250px 0px 200px;
 }
 
 header a {
@@ -62,13 +73,18 @@ li {
 
 
 
+
+
+
 /* CARD ONE STYLES */
+
 .one {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
+    background-color: #1F2937;
 }
 
 .hero-main {
@@ -96,7 +112,14 @@ li {
 
 
 
+
+
+
+
+
+
 /* CARD TWO STYLES */
+
 .two {
     text-align: center;
     background-color: #f9faf8;
@@ -139,19 +162,24 @@ li {
 
 
 
+
+
+
+
 /* CARD THREE STYLES */
+
 .three {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    /* justify-content: center; */
+    justify-content: center;
     background-color: #e5e7eb;
     color: #1f2937;
 }
 
 .quote {
     font-size: 36px;
-    font-weight: light italic;
+    font-style:italic;
     padding-bottom: 20px;
 }
 
@@ -165,12 +193,73 @@ li {
 
 
 
+
+
+
+
+/* CARD FOUR STYLES */
+
+.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 70%;
+}
+
+.sub-card {
+    min-width: 75%;
+    max-width: 75%;
+    border-radius: 5px;
+    background-color: #3882f6;
+    padding: 30px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.four-head {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.four-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+/* FOOTER STYLES */
+
+footer {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #1f2937;
+}
+
+
+
+
+
+
+
+
+
+
 /* BUTTON STYLES */
 
 button {
     background-color: #3882F6;
     color: white;
-    padding: 3px 20px;
+    padding: 5px 25px;
     border-radius: 5px;
 }
 
