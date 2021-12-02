@@ -16,8 +16,8 @@ body, html {
 }
 
 .container {
-    margin-left: 100px;
-    margin-right: 150px;
+    /* margin-left: 100px;
+    margin-right: 150px; */
 }
 
 
@@ -67,13 +67,13 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .hero-main {
     font-size: 56px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     color: #f9faf8;
 }
 
@@ -98,13 +98,69 @@ li {
 
 /* CARD TWO STYLES */
 .two {
+    text-align: center;
+    background-color: #f9faf8;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.subtext-container {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    gap: 30px;
 }
+
+.subtext {
+    max-width: 250px;
+}
+
+.subtext img {
+    max-width: 150px;
+    max-height: 150px;
+    border: solid 2px #3882F6;
+    border-radius: 5px;
+}
+
+.subtext p {
+    color: #a4a4a5;
+}
+
+.two-header {
+    font-size: 36px;
+    font-weight:bolder;
+    color: #1f2937;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+/* CARD THREE STYLES */
+.three {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* justify-content: center; */
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: light italic;
+    padding-bottom: 20px;
+}
+
+.attribution {
+    font-size: 24px;
+}
+
+
+
 
 
 
